@@ -19,14 +19,6 @@ public class Player {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setScore(int score) {
-        this.score += score;
-    }
-
     public int getScore() {
         return score;
     }
@@ -35,14 +27,21 @@ public class Player {
             d.roll();
         }
     }
-    public int totalPossibleValue(){
+    public int getHighestPossibleValue(){
         int totalDiceValue = 0;
         for (Dice d: dices) {
             totalDiceValue += d.getNrOfSides();
         }
         return totalDiceValue;
     }
-    //?????
+    public int getLowestPossibleValue(){
+        int totalDiceValue = 0;
+        for (Dice d: dices) {
+            totalDiceValue++;
+        }
+        return totalDiceValue;
+    }
+
     public int getTotalDiceValue(){
         int totalDiceValue = 0;
         for (Dice d: dices) {
@@ -60,8 +59,7 @@ public class Player {
 
     @Override
     public String toString() {
-        return "Player{" +
-                "dices=" + dices +
+        return "{" +
                 ", name='" + name + '\'' +
                 ", score=" + score +
                 '}';

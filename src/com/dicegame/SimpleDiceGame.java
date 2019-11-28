@@ -11,7 +11,7 @@ public class SimpleDiceGame {
             System.out.println("Round " + i);
             takeTurn(players);
         }
-        getWinners(players);
+        System.out.println("Winner/s is/are :"+getWinners(players));
 
     }
 
@@ -39,23 +39,35 @@ public class SimpleDiceGame {
 
     private static void takeTurn(ArrayList<Player> players) {
         Scanner sc = new Scanner(System.in);
-
         for (Player p : players) {
-
             p.rollDice();
             System.out.println("Player " + p.getName() + " is playing...");
-            System.out.println("Guess a number between 1-" + p.totalPossibleValue());
+            System.out.println("Guess a number between "+p.getLowestPossibleValue()+"-"
+                    + p.getHighestPossibleValue());
             int input = sc.nextInt();
             if (input == p.getTotalDiceValue()) {
+                System.out.println("Correct!");
                 p.increaseScore();
+            }
+            else{
+                System.out.println("Wrong!");
             }
         }
     }
 
     private static ArrayList<Player> getWinners(ArrayList<Player> players) {
         ArrayList<Player> winners = new ArrayList<>();
+
+        int Highest=0;
         for (Player p : players) {
-            p.getScore();
+            if(p.getScore() > Highest){
+                Highest = p.getScore();
+            }
+        }
+        for (Player p : players) {
+            if(p.getScore() == Highest){
+                winners.add(p);
+            }
         }
         return winners;
     }
