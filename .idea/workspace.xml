@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="472b55a8-3059-4ddb-ac7f-9d4c83898ee5" name="Default Changelist" comment="Add gameplay functionality">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="472b55a8-3059-4ddb-ac7f-9d4c83898ee5" name="Default Changelist" comment="Add game-play functionality">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DiceGame/com/dicegame/Dice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiceGame/com/dicegame/Dice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DiceGame/com/dicegame/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DiceGame/com/dicegame/RandomNr.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dicegame/Dice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dicegame/Dice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dicegame/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dicegame/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dicegame/SimpleDiceGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dicegame/SimpleDiceGame.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -95,6 +88,19 @@
       <option name="presentableId" value="Default" />
       <updated>1574859793101</updated>
     </task>
+    <task id="LOCAL−00001" summary="Add game-play functionality">
+      <created>1574948576131</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1574948576131</updated>
+    </task>
+    <task id="LOCAL−00002" summary="Add user interaction and add getWinner method">
+      <created>1574973837052</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1574973837052</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -120,6 +126,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add gameplay functionality" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add gameplay functionality" />
+    <MESSAGE value="Add game-play functionality" />
+    <MESSAGE value="Add user interaction and add getWinner method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add user interaction and add getWinner method" />
   </component>
 </project>
