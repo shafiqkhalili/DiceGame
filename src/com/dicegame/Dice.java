@@ -4,8 +4,8 @@ import java.util.Random;
 
 public class Dice {
     private static Random randomGenerator;
-    int nrOfSides;
-    int currnetSide;
+    private int nrOfSides;
+    private int currentSide;
 
     public Dice(int nrOfSides) {
         this.nrOfSides = nrOfSides;
@@ -16,16 +16,28 @@ public class Dice {
         return nrOfSides;
     }
 
-    public int getCurrnetSide() {
-        return currnetSide;
+    public void setNrOfSides(int nrOfSides) {
+        this.nrOfSides = nrOfSides;
     }
 
-    public void setCurrnetSide(int currnetSide) {
-        this.currnetSide = currnetSide;
+    public int getCurrentSide() {
+        return currentSide;
+    }
+
+    public void setCurrentSide(int currentSide) {
+        this.currentSide = currentSide;
     }
 
     public void roll() {
 
-        currnetSide = randomGenerator.nextInt(nrOfSides) + 1;
+        currentSide = randomGenerator.nextInt(nrOfSides) + 1;
+    }
+
+    @Override
+    public String toString() {
+        return "Dice{" +
+                "nrOfSides=" + nrOfSides +
+                ", currentSide=" + currentSide +
+                '}';
     }
 }

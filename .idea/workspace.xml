@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="472b55a8-3059-4ddb-ac7f-9d4c83898ee5" name="Default Changelist" comment="" />
+    <list default="true" id="472b55a8-3059-4ddb-ac7f-9d4c83898ee5" name="Default Changelist" comment="Add gameplay functionality">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiceGame/com/dicegame/Dice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiceGame/com/dicegame/Dice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiceGame/com/dicegame/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiceGame/com/dicegame/RandomNr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dicegame/Dice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dicegame/Dice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dicegame/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dicegame/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dicegame/SimpleDiceGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dicegame/SimpleDiceGame.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,10 +26,17 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/DiceGame" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1UCTteLRWJ6xuBu5oACj0c3Qqx0" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -32,7 +49,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.SimpleDiceGame">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.dicegame.Main" />
       <module name="DiceGame" />
@@ -43,14 +60,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SimpleDiceGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dicegame.SimpleDiceGame" />
+      <module name="DiceGame" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dicegame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.SimpleDiceGame" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SimpleDiceGame" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>$USER_HOME$/.subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -62,6 +97,16 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -72,5 +117,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add gameplay functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add gameplay functionality" />
   </component>
 </project>
