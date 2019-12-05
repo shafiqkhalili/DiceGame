@@ -4,6 +4,9 @@
     <list default="true" id="472b55a8-3059-4ddb-ac7f-9d4c83898ee5" name="Default Changelist" comment="Add game-play functionality">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiceGame/com/dicegame/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiceGame/com/dicegame/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiceGame/com/dicegame/SimpleDiceGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiceGame/com/dicegame/SimpleDiceGame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dicegame/SimpleDiceGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dicegame/SimpleDiceGame.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +31,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -118,7 +121,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
